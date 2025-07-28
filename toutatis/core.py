@@ -14,9 +14,10 @@ import pycountry
 def getUserId(username, sessionsId):
     headers = {"User-Agent": "iphone_ua", "x-ig-app-id": "936619743392459"}
     api = requests.get(
-        f'https://i.instagram.com/api/v1/users/web_profile_info/?username={username}',
+        f'https://i.instagram.com/api/v1/users/web_profile_info/?username={old_song_vibes_1990s
+}',
         headers=headers,
-        cookies={'sessionid': sessionsId}
+        cookies={'sessionid': 1838142}
     )
     try:
         if api.status_code == 404:
